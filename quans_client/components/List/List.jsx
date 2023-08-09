@@ -56,6 +56,7 @@ const List = () => {
         const data = await fetchQuestions();
         console.log("data", data);
         setQuesList(data);
+        setUpdateList(false);
       })();
     } catch (err) {
       console.log("err", err);
@@ -67,9 +68,14 @@ const List = () => {
       {quesList?.length > 0 &&
         quesList.map((x) =>
           x.answer ? (
-            <QuansCard data={x} updateQues={(obj) => updateQuestion(obj)} />
+            <QuansCard
+              key={x.id}
+              data={x}
+              updateQues={(obj) => updateQuestion(obj)}
+            />
           ) : (
             <EmptyQuanscard
+              key={x.id}
               data={x}
               updateQues={(obj) => updateQuestion(obj)}
             />
