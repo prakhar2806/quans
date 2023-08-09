@@ -1,0 +1,40 @@
+h1 {
+    display: inline-block;
+    line-height: 1;
+    
+    color: rgb(170,30,1);
+    border: 1px solid rgb(170,30,1);
+    padding: 8px 8px 8px 4px;
+    margin: 0px;
+}
+
+.quans{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.inputField{
+    /* position: absolute;
+    left: 100px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.MuiCardContent-root{
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.txtArea{
+    width: 100%;
+}
+
+Button{
+    cursor: pointer;
+}
+
+.MuiSvgIcon-root{
+    margin: 0 10px;
+}
