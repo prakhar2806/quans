@@ -7,7 +7,7 @@ const { resolvers } = require("./resolvers.js");
 const { typeDefs } = require("./model/typeDefs.js");
 
 const MONGO_URI =
-  "mongodb+srv://prakharngm92:WORDlife2806!@cluster1.huq4hug.mongodb.net/";
+  "mongodb+srv://prakharngm92:<password>!@cluster1.huq4hug.mongodb.net/";
 
 // Database connection
 mongoose
