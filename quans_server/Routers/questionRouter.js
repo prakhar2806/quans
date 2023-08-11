@@ -1,11 +1,9 @@
 const express = require("express");
 const questionRouter = express.Router();
-
-const questions = require("./questions");
-
+const questions = require("../questions");
 let quans = [...questions];
 
-questionRouter.post("/", (req, res) => {
+questionRouter.post("/", async (req, res) => {
   console.log("api hit", req.body);
   res.send({ data: quans });
 });

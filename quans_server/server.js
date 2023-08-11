@@ -3,7 +3,7 @@ const app = express();
 const dev = process.env.NODE_ENV !== "production";
 const cors = require("cors");
 
-const questionRouter = require("./questionRouter");
+const questionRouter = require("./Routers/questionRouter");
 
 app.use(cors());
 app.use(express.json());

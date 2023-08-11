@@ -5,6 +5,7 @@ const questions = [
     answer: "366 days",
     votes: 99,
     author: "sammy guevara",
+    comments: [],
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const questions = [
     answer: "19",
     votes: 62,
     author: "Jessi james",
+    comments: [],
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const questions = [
     answer: "expected around 1 lakh 29 thousand",
     votes: 99,
     author: "khalid",
+    comments: [],
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const questions = [
     answer: undefined,
     votes: 0,
     author: undefined,
+    comments: [],
   },
   {
     id: 5,
@@ -34,6 +38,7 @@ const questions = [
       "Usually it is pretty low but compared to amaerica, it is better at around 4399 AUD per anum",
     votes: 99,
     author: "sammy guevara",
+    comments: [],
   },
   {
     id: 6,
@@ -41,6 +46,7 @@ const questions = [
     answer: "Sir sachin tendulkar",
     votes: 999,
     author: "brian lara",
+    comments: [],
   },
   {
     id: 7,
@@ -48,6 +54,7 @@ const questions = [
     answer: "India and srilanka",
     votes: 29,
     author: "Vikrant",
+    comments: [],
   },
   {
     id: 8,
@@ -55,6 +62,7 @@ const questions = [
     answer: undefined,
     votes: 0,
     author: undefined,
+    comments: [],
   },
   {
     id: 9,
@@ -62,6 +70,7 @@ const questions = [
     answer: undefined,
     votes: 0,
     author: undefined,
+    comments: [],
   },
 ];
 
