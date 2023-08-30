@@ -7,10 +7,12 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const questionRouter = require("./Routers/questionRouter");
+const userRouter = require("./Routers/userRouter");
 
 app.use(cors());
 app.use(express.json());
 app.use("/ques", questionRouter);
+app.use("/user", userRouter);
 
 // Parses the text as url encoded data
 app.use(bodyParser.urlencoded({ extended: true }));

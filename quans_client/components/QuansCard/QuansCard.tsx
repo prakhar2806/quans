@@ -29,7 +29,7 @@ export default function QuansCard({ data, updateQues }: any) {
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
           By Author: {data.author}
         </Typography>
-        <Typography variant="body2">{data.answer}</Typography>
+        <Typography variant="h6">{data.answer}</Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
           Rating: {data.votes}
         </Typography>
